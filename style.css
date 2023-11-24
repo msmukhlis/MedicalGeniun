@@ -277,7 +277,8 @@ span, a, label {
 .whiteicons {
     position: absolute;
     bottom: 0 ;
-    transform: translateX(70%) translateY(-60%)
+    left: 50%;
+    transform: translateX(-50%) translateY(-60%)
 }
 .whiteicon {
     background-color: white;
@@ -516,11 +517,12 @@ span, a, label {
 }
 @media(max-width:1050px) {
     .bottom {
+        padding: 0;
         display: flex;
         flex-direction: column;
         row-gap: 20px;
     }
-    .left2, .left3, .box5, .box6, .box7, .list9 {
+    .left2, .box5, .box6, .box7, .list9 {
         width: 100%;
    
     }
