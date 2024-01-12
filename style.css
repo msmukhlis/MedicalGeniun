@@ -223,6 +223,7 @@ span, a, label {
     width: 110px;
     position: absolute;
     right: 0;
+    top: 0;
     transform: translateX(50%) translateY(100%);
 }
 .fourth {
